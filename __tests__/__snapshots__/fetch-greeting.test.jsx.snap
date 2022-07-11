@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Getting the Greeting -> server error 1`] = `
+<div>
+  <div>
+    <button>
+      Get the greeting
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Getting the Greeting -> server error 2`] = `
+<div>
+  <div>
+    <button>
+      Get the greeting
+    </button>
+    <p
+      role="alert"
+    >
+      Unable to get the greeting
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Getting the Greeting -> successfull greeting 1`] = `
+<div>
+  <div>
+    <button>
+      Get the greeting
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Getting the Greeting -> successfull greeting 2`] = `
+<div>
+  <div>
+    <button
+      disabled=""
+    >
+      Ready
+    </button>
+    <h1
+      data-cy="heading"
+    >
+      Bonjour!
+    </h1>
+  </div>
+</div>
+`;
